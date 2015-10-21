@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9474B1561BD7953A00864DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474B1551BD7953A00864DB0 /* main.m */; };
+		9474B1591BD7953A00864DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474B1581BD7953A00864DB0 /* AppDelegate.m */; };
+		9474B15C1BD7953A00864DB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474B15B1BD7953A00864DB0 /* ViewController.m */; };
+		9474B15F1BD7953A00864DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9474B15D1BD7953A00864DB0 /* Main.storyboard */; };
+		9474B1611BD7953A00864DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9474B1601BD7953A00864DB0 /* Assets.xcassets */; };
+		9474B1641BD7953A00864DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9474B1621BD7953A00864DB0 /* LaunchScreen.storyboard */; };
+		9474B16F1BD7953A00864DB0 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474B16E1BD7953A00864DB0 /* __________Tests.m */; };
+		9474B17A1BD7953A00864DB0 /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474B1791BD7953A00864DB0 /* __________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9474B16B1BD7953A00864DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9474B1491BD7953A00864DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9474B1501BD7953A00864DB0;
+			remoteInfo = "输入栏自适应键盘高度";
+		};
+		9474B1761BD7953A00864DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9474B1491BD7953A00864DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9474B1501BD7953A00864DB0;
+			remoteInfo = "输入栏自适应键盘高度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9474B1511BD7953A00864DB0 /* 输入栏自适应键盘高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "输入栏自适应键盘高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9474B1551BD7953A00864DB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9474B1571BD7953A00864DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9474B1581BD7953A00864DB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9474B15A1BD7953A00864DB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9474B15B1BD7953A00864DB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9474B15E1BD7953A00864DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9474B1601BD7953A00864DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9474B1631BD7953A00864DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9474B1651BD7953A00864DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9474B16A1BD7953A00864DB0 /* 输入栏自适应键盘高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "输入栏自适应键盘高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9474B16E1BD7953A00864DB0 /* __________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________Tests.m"; sourceTree = "<group>"; };
+		9474B1701BD7953A00864DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9474B1751BD7953A00864DB0 /* 输入栏自适应键盘高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "输入栏自适应键盘高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9474B1791BD7953A00864DB0 /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
+		9474B17B1BD7953A00864DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9474B14E1BD7953A00864DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9474B1671BD7953A00864DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9474B1721BD7953A00864DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9474B1481BD7953A00864DB0 = {
+			isa = PBXGroup;
+			children = (
+				9474B1531BD7953A00864DB0 /* 输入栏自适应键盘高度 */,
+				9474B16D1BD7953A00864DB0 /* 输入栏自适应键盘高度Tests */,
+				9474B1781BD7953A00864DB0 /* 输入栏自适应键盘高度UITests */,
+				9474B1521BD7953A00864DB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9474B1521BD7953A00864DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9474B1511BD7953A00864DB0 /* 输入栏自适应键盘高度.app */,
+				9474B16A1BD7953A00864DB0 /* 输入栏自适应键盘高度Tests.xctest */,
+				9474B1751BD7953A00864DB0 /* 输入栏自适应键盘高度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9474B1531BD7953A00864DB0 /* 输入栏自适应键盘高度 */ = {
+			isa = PBXGroup;
+			children = (
+				9474B1571BD7953A00864DB0 /* AppDelegate.h */,
+				9474B1581BD7953A00864DB0 /* AppDelegate.m */,
+				9474B15A1BD7953A00864DB0 /* ViewController.h */,
+				9474B15B1BD7953A00864DB0 /* ViewController.m */,
+				9474B15D1BD7953A00864DB0 /* Main.storyboard */,
+				9474B1601BD7953A00864DB0 /* Assets.xcassets */,
+				9474B1621BD7953A00864DB0 /* LaunchScreen.storyboard */,
+				9474B1651BD7953A00864DB0 /* Info.plist */,
+				9474B1541BD7953A00864DB0 /* Supporting Files */,
+			);
+			path = "输入栏自适应键盘高度";
+			sourceTree = "<group>";
+		};
+		9474B1541BD7953A00864DB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9474B1551BD7953A00864DB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9474B16D1BD7953A00864DB0 /* 输入栏自适应键盘高度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9474B16E1BD7953A00864DB0 /* __________Tests.m */,
+				9474B1701BD7953A00864DB0 /* Info.plist */,
+			);
+			path = "输入栏自适应键盘高度Tests";
+			sourceTree = "<group>";
+		};
+		9474B1781BD7953A00864DB0 /* 输入栏自适应键盘高度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9474B1791BD7953A00864DB0 /* __________UITests.m */,
+				9474B17B1BD7953A00864DB0 /* Info.plist */,
+			);
+			path = "输入栏自适应键盘高度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9474B1501BD7953A00864DB0 /* 输入栏自适应键盘高度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9474B17E1BD7953A00864DB0 /* Build configuration list for PBXNativeTarget "输入栏自适应键盘高度" */;
+			buildPhases = (
+				9474B14D1BD7953A00864DB0 /* Sources */,
+				9474B14E1BD7953A00864DB0 /* Frameworks */,
+				9474B14F1BD7953A00864DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "输入栏自适应键盘高度";
+			productName = "输入栏自适应键盘高度";
+			productReference = 9474B1511BD7953A00864DB0 /* 输入栏自适应键盘高度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9474B1691BD7953A00864DB0 /* 输入栏自适应键盘高度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9474B1811BD7953A00864DB0 /* Build configuration list for PBXNativeTarget "输入栏自适应键盘高度Tests" */;
+			buildPhases = (
+				9474B1661BD7953A00864DB0 /* Sources */,
+				9474B1671BD7953A00864DB0 /* Frameworks */,
+				9474B1681BD7953A00864DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9474B16C1BD7953A00864DB0 /* PBXTargetDependency */,
+			);
+			name = "输入栏自适应键盘高度Tests";
+			productName = "输入栏自适应键盘高度Tests";
+			productReference = 9474B16A1BD7953A00864DB0 /* 输入栏自适应键盘高度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9474B1741BD7953A00864DB0 /* 输入栏自适应键盘高度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9474B1841BD7953A00864DB0 /* Build configuration list for PBXNativeTarget "输入栏自适应键盘高度UITests" */;
+			buildPhases = (
+				9474B1711BD7953A00864DB0 /* Sources */,
+				9474B1721BD7953A00864DB0 /* Frameworks */,
+				9474B1731BD7953A00864DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9474B1771BD7953A00864DB0 /* PBXTargetDependency */,
+			);
+			name = "输入栏自适应键盘高度UITests";
+			productName = "输入栏自适应键盘高度UITests";
+			productReference = 9474B1751BD7953A00864DB0 /* 输入栏自适应键盘高度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9474B1491BD7953A00864DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sunxianglong;
+				TargetAttributes = {
+					9474B1501BD7953A00864DB0 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9474B1691BD7953A00864DB0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9474B1501BD7953A00864DB0;
+					};
+					9474B1741BD7953A00864DB0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9474B1501BD7953A00864DB0;
+					};
+				};
+			};
+			buildConfigurationList = 9474B14C1BD7953A00864DB0 /* Build configuration list for PBXProject "输入栏自适应键盘高度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9474B1481BD7953A00864DB0;
+			productRefGroup = 9474B1521BD7953A00864DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9474B1501BD7953A00864DB0 /* 输入栏自适应键盘高度 */,
+				9474B1691BD7953A00864DB0 /* 输入栏自适应键盘高度Tests */,
+				9474B1741BD7953A00864DB0 /* 输入栏自适应键盘高度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9474B14F1BD7953A00864DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9474B1641BD7953A00864DB0 /* LaunchScreen.storyboard in Resources */,
+				9474B1611BD7953A00864DB0 /* Assets.xcassets in Resources */,
+				9474B15F1BD7953A00864DB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9474B1681BD7953A00864DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9474B1731BD7953A00864DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9474B14D1BD7953A00864DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9474B15C1BD7953A00864DB0 /* ViewController.m in Sources */,
+				9474B1591BD7953A00864DB0 /* AppDelegate.m in Sources */,
+				9474B1561BD7953A00864DB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9474B1661BD7953A00864DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9474B16F1BD7953A00864DB0 /* __________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9474B1711BD7953A00864DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9474B17A1BD7953A00864DB0 /* __________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9474B16C1BD7953A00864DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9474B1501BD7953A00864DB0 /* 输入栏自适应键盘高度 */;
+			targetProxy = 9474B16B1BD7953A00864DB0 /* PBXContainerItemProxy */;
+		};
+		9474B1771BD7953A00864DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9474B1501BD7953A00864DB0 /* 输入栏自适应键盘高度 */;
+			targetProxy = 9474B1761BD7953A00864DB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9474B15D1BD7953A00864DB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9474B15E1BD7953A00864DB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9474B1621BD7953A00864DB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9474B1631BD7953A00864DB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9474B17C1BD7953A00864DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9474B17D1BD7953A00864DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9474B17F1BD7953A00864DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "输入栏自适应键盘高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaomabao.www.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9474B1801BD7953A00864DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "输入栏自适应键盘高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaomabao.www.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9474B1821BD7953A00864DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "输入栏自适应键盘高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaomabao.www.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/输入栏自适应键盘高度.app/输入栏自适应键盘高度";
+			};
+			name = Debug;
+		};
+		9474B1831BD7953A00864DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "输入栏自适应键盘高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaomabao.www.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/输入栏自适应键盘高度.app/输入栏自适应键盘高度";
+			};
+			name = Release;
+		};
+		9474B1851BD7953A00864DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "输入栏自适应键盘高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaomabao.www.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "输入栏自适应键盘高度";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9474B1861BD7953A00864DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "输入栏自适应键盘高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaomabao.www.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "输入栏自适应键盘高度";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9474B14C1BD7953A00864DB0 /* Build configuration list for PBXProject "输入栏自适应键盘高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9474B17C1BD7953A00864DB0 /* Debug */,
+				9474B17D1BD7953A00864DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9474B17E1BD7953A00864DB0 /* Build configuration list for PBXNativeTarget "输入栏自适应键盘高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9474B17F1BD7953A00864DB0 /* Debug */,
+				9474B1801BD7953A00864DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9474B1811BD7953A00864DB0 /* Build configuration list for PBXNativeTarget "输入栏自适应键盘高度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9474B1821BD7953A00864DB0 /* Debug */,
+				9474B1831BD7953A00864DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9474B1841BD7953A00864DB0 /* Build configuration list for PBXNativeTarget "输入栏自适应键盘高度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9474B1851BD7953A00864DB0 /* Debug */,
+				9474B1861BD7953A00864DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9474B1491BD7953A00864DB0 /* Project object */;
+}
